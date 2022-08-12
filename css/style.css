@@ -4,36 +4,37 @@
     width: 100%;
     height: 161px;
 }
+
 .custom-shape-divider-bottom-1660248042 {
-    background: black;
     position: relative;
-    bottom: 0;
+    bottom: 10%;
     left: 0;
+    top: 5%;
     width: 100%;
     line-height: 0;
-    /* transform: rotate(180deg); */
 }
 
 .custom-shape-divider-bottom-1660248042 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 217px;
-    transform: rotateY(180deg);
+    height: 250px;
+    margin-top: -10px;
 }
 
 .custom-shape-divider-bottom-1660248042 .shape-fill {
     fill: black;
 }
+
 .main-header {
     padding-top: 5%;
     letter-spacing: 15px;
     text-align: center;
     text-shadow: 0 0 10px #00b3ff,
-                0 0 20px #00b3ff,
-                0 0 40px  #00b3ff,
-                0 0 80px  #00b3ff,
-                0 0 120px  #00b3ff;
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
     color: white;
     text-transform: uppercase;
     font-family: "Raleway", cursive;
@@ -45,20 +46,37 @@
     animation: animate 5s linear infinite;
     -webkit-boxreflect: below 1px linear-gradient(transparent, #0004);
 }
+
 @keyframes animate {
-    0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92%
-    {
+
+    0%,
+    18%,
+    20%,
+    50.1%,
+    60%,
+    65.1%,
+    80%,
+    90.1%,
+    92% {
         color: #0e3742;
         text-shadow: none;
-    } 
-    18.1%, 20.1%, 20%, 50%, 60.1%, 80.1%, 90%, 92.1%, 100%
-    {
+    }
+
+    18.1%,
+    20.1%,
+    20%,
+    50%,
+    60.1%,
+    80.1%,
+    90%,
+    92.1%,
+    100% {
         color: #fff;
         text-shadow: 0 0 10px #03bcf4,
-        0 0 20px #03b3f4,
-        0 0 40px  #03bcf4,
-        0 0 80px  #03b3f4,
-        0 0 160px  #03bcf4;
+            0 0 20px #03b3f4,
+            0 0 40px #03bcf4,
+            0 0 80px #03b3f4,
+            0 0 160px #03bcf4;
     }
 }
 
@@ -79,10 +97,10 @@
     margin: 0;
     margin-top: -0.6em;
     text-shadow: 0 0 10px #212222,
-                0 0 20px #00b3ff,
-                0 0 40px  #141515,
-                0 0 80px  #00b3ff,
-                0 0 120px  #242424;
+        0 0 20px #00b3ff,
+        0 0 40px #141515,
+        0 0 80px #00b3ff,
+        0 0 120px #242424;
     color: white;
 
 }
@@ -101,15 +119,76 @@
     margin: 0;
     margin-top: -0.6em;
     text-shadow: 0 0 10px #212222,
-                0 0 20px #00b3ff,
-                0 0 40px  #141515,
-                0 0 80px  #00b3ff,
-                0 0 120px  #242424;
+        0 0 20px #00b3ff,
+        0 0 40px #141515,
+        0 0 80px #00b3ff,
+        0 0 120px #242424;
     color: white;
 }
-
 
 .paragraph-two {
     font-size: 12px;
     text-align: right;
+}
+
+@media only screen and (max-width: 1024px) {
+    .bottom-section {
+        width: 100%;
+        padding: 25% 0% 0% 15%;
+    }
+    .section-one {
+        background-color: lightcoral;
+        margin-bottom: 5%;
+    }
+    .section-one-title {
+        padding-top: 15px;
+    }
+    .section-two {
+        background-color: rgb(140, 162, 140);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .bottom-section {
+        padding-top: 30%;
+    }
+    .section-one {
+        background-color: rgba(201, 63, 63, 0.47);
+        margin-bottom: 10%;
+    }
+    .section-two {
+        background-color: rgb(145, 168, 243);
+    }
+}
+@media only screen and (max-width: 480px) {
+    .top-section {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    .main-header {
+        font-size:32px
+    }
+    .custom-shape-divider-bottom-1660248042 svg {
+        height: 60px;
+        margin-top: -10px;
+    }
+    .bottom-section {
+        width: 95%;
+        margin-left : 10px !important;
+        padding: 10px;
+    }
+    .section-one {
+        background-color: rgb(168, 193, 188);
+        margin: 10px 0px 20px 0px;
+    }
+    .section-one-title {
+        padding-top: 20px;
+    }
+    .section-two { 
+        background-color: rgb(225, 128, 201);
+    }
 }
