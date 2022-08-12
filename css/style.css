@@ -6,21 +6,20 @@
 }
 
 .custom-shape-divider-bottom-1660248042 {
-    background: black;
     position: relative;
-    bottom: 0;
+    bottom: 10%;
     left: 0;
+    top: 5%;
     width: 100%;
     line-height: 0;
-    /* transform: rotate(180deg); */
 }
 
 .custom-shape-divider-bottom-1660248042 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 217px;
-    transform: rotateY(180deg);
+    height: 250px;
+    margin-top: -10px;
 }
 
 .custom-shape-divider-bottom-1660248042 .shape-fill {
@@ -132,6 +131,35 @@
     text-align: right;
 }
 
+@media only screen and (max-width: 1024px) {
+    .bottom-section {
+        width: 100%;
+        padding: 25% 0% 0% 15%;
+    }
+    .section-one {
+        background-color: lightcoral;
+        margin-bottom: 5%;
+    }
+    .section-one-title {
+        padding-top: 15px;
+    }
+    .section-two {
+        background-color: rgb(140, 162, 140);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .bottom-section {
+        padding-top: 30%;
+    }
+    .section-one {
+        background-color: rgba(201, 63, 63, 0.47);
+        margin-bottom: 10%;
+    }
+    .section-two {
+        background-color: rgb(145, 168, 243);
+    }
+}
 @media only screen and (max-width: 480px) {
     .top-section {
         flex-direction: column;
@@ -144,8 +172,13 @@
     .main-header {
         font-size:32px
     }
+    .custom-shape-divider-bottom-1660248042 svg {
+        height: 60px;
+        margin-top: -10px;
+    }
     .bottom-section {
-        margin: 10px 0px 10px 10px;
+        width: 95%;
+        margin-left : 10px !important;
         padding: 10px;
     }
     .section-one {
@@ -156,14 +189,6 @@
         padding-top: 20px;
     }
     .section-two { 
-        background-color: blue;
-        margin: 10px 0px 20px 0px;
-
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .section-two {
-        background-color: rgb(145, 168, 243);
+        background-color: rgb(225, 128, 201);
     }
 }
