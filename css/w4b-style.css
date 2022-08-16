@@ -1,0 +1,157 @@
+.container {
+    background-image: url(./images/bg-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 900px;
+
+}
+
+.box-one {
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    opacity: 0.7;
+}
+
+.box-two {
+    width: 150px;
+    height: 150px;
+    opacity: 0.7;
+    background-color: lightblue;
+
+}
+
+.box-three {
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    opacity: 0.7;
+
+}
+
+.box-four {
+    width: 150px;
+    height: 150px;
+    opacity: 0.7;
+    background-color: lightblue;
+
+}
+
+.box-five {
+    width: 150px;
+    height: 150px;
+    opacity: 0.7;
+    background-color: lightblue;
+}
+
+.box-six {
+    width: 150px;
+    height: 150px;
+    opacity: 0.7;
+    background-color: gray;
+}
+
+.box-seven {
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    opacity: 0.7;
+}
+
+.box-eight {
+    width: 150px;
+    height: 150px;
+    opacity: 0.7;
+    background-color: gray;
+}
+
+.box-nine {
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    opacity: 0.7;
+}
+
+.box-ten {
+    width: 150px;
+    height: 150px;
+    opacity: 0.7;
+    background-color: lightblue;
+
+}
+
+.box-eleven {
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    opacity: 0.7;
+}
+
+.box-twelve {
+    width: 150px;
+    height: 150px;
+    opacity: 0.7;
+    background-color: lightblue;
+
+}
+
+.box-thirteen {
+    width: 150px;
+    height: 150px;
+    opacity: 0.7;
+    background-color: lightblue;
+
+}
+
+.box-fourteen {
+    width: 150px;
+    height: 150px;
+    opacity: 0.7;
+    background-color: gray;
+
+}
+
+.box-fifteen {
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    opacity: 0.7;
+}
+
+.box-sixteen {
+    width: 150px;
+    height: 150px;
+    opacity: 0.7;
+    background-color: gray;
+}
+
+.list-stuff {
+    font-size: 34px;
+    list-style: none;
+    color: rgb(14, 16, 15);
+}
+
+.navbar {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding-bottom: 55%;
+    position: absolute;
+    font-size: 64px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    background-color: black;
+    opacity: 0.4;
+    color: white;
+    text-decoration: none;
+    margin: 55px;
+}
